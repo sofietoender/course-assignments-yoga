@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+   }
+   html:focus-within {
+    scroll-behavior: smooth;
+   }
+   *,
+   *::before,
+   *::after {
+    box-sizing: inherit;
+   }
+
+   body {
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+   }
+
+   :root {
+    --main-font:'Playfair Display', serif;
+    --second-font: 'Montserrat', sans-serif;
+   }
+.header-section {
+    padding-top:100px;
+    background:#FFFAF4;
+}
+
+   .header-img {
+    width: 100%;
+   }
+
+   .header-text {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left:30px;
+   }
+
+   .header-btn {
+    padding: 15px 35px;
+	color: #fff;
+	background: #FD8459;
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 15px;
+	border: 2px solid transparent;
+	transition: all .40s ease;
+    margin-top: 70px;
+   }
+
+   .eggplant{
+	background: transparent;
+	border: 2px solid #573544;
+	color: #573544;
+	margin-left: 20px;
+	transition: all .40s ease;
+}
+
+.orange:hover{
+	background: transparent;
+	border: 2px solid #ca7c62;
+	color: #3e1908;
+}
+.eggplant:hover{
+	background: #573544;;
+	color: #fff;
+}
+
+.heading-headertext,.header-para {
+    color:#212427;
+}
+
+.yoga-girl-img {
+    width: 100%
+}
+
+.yoga-section {
+    margin:20px;
+    margin-top:50px;
+    padding-top:150px;
+    gap:40px;
+    
+    
+}
+
+.yoga-section-text {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+   
+}
+
+.heading-headertext {
+    font-family: var(--main-font);
+    letter-spacing: 2px;
+    line-height: 1.1;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.header-para{
+    font-family: var(--second-font);
+    line-height: 30px;
+    margin: 15px;
+}
+
+.yoga-section-heading {
+   
+}
+
+.yoga-section-para{
+    font-family: var(--second-font);
+    line-height: 30px;
+    
+}
+
+/* h2 {
+    padding: 30px 0 8px;
+    position: relative;
+  }
+  
+  h2::before {
+    content: "";
+    position: absolute;
+    left: 30%;
+    bottom: 16px;
+    width: 150px;
+    height: 14px;
+    transform: skew(-12deg) translateX(-50%);
+    background: rgba(238,111,87,0.5);
+    z-index: -1;
+  } */
+   
