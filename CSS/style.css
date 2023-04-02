@@ -75,9 +75,6 @@ h1,h2 {
     width: 100%;
 }
 .yoga-section {
-    margin:20px;
-    margin-top:20px;
-    margin-bottom:0px;
     padding-top:150px;
    
     
@@ -114,11 +111,9 @@ h1,h2 {
     width: 100%;
 }
 .yoga-events {
-    margin:20px;
     background: #674253;
     padding:60px;
-    margin-top:0px;
-    margin-bottom:0px;
+  
   
 }
 
@@ -175,7 +170,7 @@ h1,h2 {
 
 .section-blog {
     background:#fee4d3;
-    margin:20px;
+    
     margin-top:0px;
     padding-top:80px;
     padding-bottom: 80px;
