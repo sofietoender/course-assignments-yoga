@@ -92,8 +92,9 @@ h1,h2 {
 .yoga-section-text {
     display:flex;
     flex-direction: column;
-  padding: 60px;
-    background:#fbfaf1;
+  padding: 80px;
+    background:#fee4d3;
+    gap:10px;
 }
 .heading-headertext {
     font-family: var(--main-font);
@@ -112,6 +113,7 @@ h1,h2 {
 }
 .yoga-events {
     margin:20px;
+  
 }
 
 .event-container {
@@ -159,8 +161,10 @@ h1,h2 {
     color:#212427;
 }
 .join-us-text {
-    font-size: 3em;
-    padding:30px;
+    font-size: 2em;
+    padding-top:150px;
+    padding-bottom: 40px;
+    color:#573544;
 }
 @media (min-width: 768px) {
     .header-img {
@@ -184,6 +188,7 @@ h1,h2 {
         display:flex;
         flex-direction: column;
         justify-content: center;
+        
    }
 }
 @media (min-width: 992px) {
@@ -202,5 +207,9 @@ h1,h2 {
         gap:15px;
         justify-content: center;
         
+   }
+
+   .join-us-text {
+font-size: 3em;
    }
 }
