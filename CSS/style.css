@@ -171,13 +171,7 @@ h1,h2 {
         width: 500px;
         margin: 0 auto;
    }
-    .yoga-section {
-        display:flex;
-        flex-direction: row;
-   }
-    .yoga-girl-img {
-        width: 500px;
-   }
+    
     .event-containars {
         display:flex;
         gap:15px;
@@ -199,6 +193,14 @@ h1,h2 {
     .header-img {
         width: 500px;
    }
+
+   .yoga-section {
+    display:flex;
+    flex-direction: row;
+}
+.yoga-girl-img {
+    width: 500px;
+}
 }
 @media (min-width: 1200px) {
 
