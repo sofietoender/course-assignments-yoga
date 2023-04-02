@@ -113,6 +113,7 @@ h1,h2 {
 .yoga-events {
     background: #674253;
     padding:20px;
+    padding-bottom:90px;
   
   
 }
@@ -163,7 +164,7 @@ h1,h2 {
 }
 .join-us-text {
     font-size: 2em;
-    padding-top:150px;
+    padding-top:100px;
     padding-bottom: 40px;
     color:#F7AB88;
 }
@@ -182,6 +183,8 @@ h1,h2 {
     font-size: 3em;
     padding-left:2rem;
     letter-spacing: 0.4;
+    color:#222427;
+    margin-bottom:50px;
 
 }
 
@@ -209,6 +212,7 @@ h1,h2 {
         flex-direction: column;
         justify-content: center;
         padding:60px;
+        padding-bottom:100px;
         
    }
 
