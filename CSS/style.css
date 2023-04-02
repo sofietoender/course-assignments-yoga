@@ -119,6 +119,12 @@ h1,h2 {
 }
 
 .event-container {
+    max-width: 550px;
+}
+
+
+
+.event-container {
     padding:30px;
     background:#fffaf4;
     border-radius:3px;
@@ -165,7 +171,7 @@ h1,h2 {
 .join-us-text {
     font-size: 2em;
     padding-top:100px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     color:#F7AB88;
 }
 
@@ -194,6 +200,7 @@ h1,h2 {
     color:#F7AB88;
     font-size: 1.3em;
     margin-bottom:15px;
+
 }
 @media (min-width: 768px) {
     .header-img {
@@ -203,7 +210,8 @@ h1,h2 {
     
     .event-containars {
         display:flex;
-        gap:15px;
+        gap:35px;
+        
         
    }
     .yoga-events {
@@ -216,9 +224,17 @@ h1,h2 {
         
    }
 
+
+   .event-heading-para {
+    padding-left:80px;
+    padding-right: 80px;
+   }
+
    .yoga-section-text {
     padding:80px;
    }
+
+   
 }
 @media (min-width: 992px) {
     .header-section {
@@ -241,8 +257,9 @@ h1,h2 {
 
     .event-containars {
         display:flex;
-        gap:15px;
+        
         justify-content: center;
+        gap:35px;
         
    }
 
