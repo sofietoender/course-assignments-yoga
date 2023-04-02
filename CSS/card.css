@@ -28,8 +28,7 @@ line-height: 1.5;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px;
-  margin-block: 2rem;
+
   gap: 2rem;
 }
 

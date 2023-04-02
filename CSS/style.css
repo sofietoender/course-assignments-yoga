@@ -90,7 +90,7 @@ h1,h2 {
 .yoga-section-text {
     display:flex;
     flex-direction: column;
-  padding: 80px;
+  padding: 30px;
   padding-bottom:120px;
     background:#fee4d3;
     gap:10px;
@@ -112,7 +112,7 @@ h1,h2 {
 }
 .yoga-events {
     background: #674253;
-    padding:60px;
+    padding:20px;
   
   
 }
@@ -208,7 +208,12 @@ h1,h2 {
         display:flex;
         flex-direction: column;
         justify-content: center;
+        padding:60px;
         
+   }
+
+   .yoga-section-text {
+    padding:80px;
    }
 }
 @media (min-width: 992px) {
