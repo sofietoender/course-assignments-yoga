@@ -18,7 +18,10 @@ html {
 
   /* Link to navbar hamburger menu source: https://codepen.io/Sukhjinder-arora/pen/OZGomv*/
 
-  
+  :root {
+    --main-font:'Playfair Display', serif;
+    --second-font: 'Montserrat', sans-serif;
+}
   .navbar {
     font-size: 18px;
     background:  #FFFAF4;
@@ -40,6 +43,7 @@ html {
   .logo {
     text-decoration: none;
     color: green;
+    font-family: var(--second-font);
   }
   
   .main-nav li {
