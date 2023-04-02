@@ -7,6 +7,20 @@
   padding: 0;
   margin: 0;
 }
+:root {
+    --main-font:'Playfair Display', serif;
+    --second-font: 'Montserrat', sans-serif;
+}
+
+
+h4 {
+    font-family: var(--main-font);
+}
+
+p {
+font-family: var(--second-font);
+line-height: 1.5;
+}
 
 
 
@@ -31,14 +45,11 @@ img {
   width: clamp(20rem, calc(20rem + 2vw), 22rem);
   overflow: hidden;
   box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
-  border-radius: 1em;
-  background: #ECE9E6;
-background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  border-radius: 3px;
+
+background:white;
 
 }
-
-
-
 .card__body-blog {
   padding: 1rem;
   display: flex;
