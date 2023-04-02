@@ -1,210 +1,196 @@
 html {
     box-sizing: border-box;
-   }
-   html:focus-within {
+}
+html:focus-within {
     scroll-behavior: smooth;
-   }
-   *,
-   *::before,
-   *::after {
+}
+*, *::before, *::after {
     box-sizing: inherit;
-   }
-
-   body {
+}
+body {
     overflow-x: hidden;
     margin:0;
     padding:0;
     background:#FFFAF4;
-   }
-
-   :root {
+}
+:root {
     --main-font:'Playfair Display', serif;
     --second-font: 'Montserrat', sans-serif;
-   }
-
-   :root{
+}
+:root{
     --main: #ff6e01;
     --bg: #f1e1d2;
     --black: #000;
     --white: #fff;
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
-   }
+}
 .header-section {
     padding-top:100px;
     background:#FFFAF4;
 }
-
-   .header-img {
+.header-img {
     width: 100%;
-   }
-
-   .header-text {
+}
+.header-text {
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-   }
-
-   .header-btn {
-    padding: 15px 35px;
-	color: #fff;
-	background: #FD8459;
-	font-size: 15px;
-	font-weight: 500;
-	border-radius: 15px;
-	border: 2px solid transparent;
-	transition: all .40s ease;
-    margin-top: 70px;
-   }
-
-   .eggplant{
-	background: transparent;
-	border: 2px solid #573544;
-	color: #573544;
-	transition: all .40s ease;
 }
-
+.header-btn {
+    padding: 15px 35px;
+    color: #fff;
+    background: #FD8459;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    transition: all .40s ease;
+    margin-top: 70px;
+}
+.eggplant{
+    background: transparent;
+    border: 2px solid #573544;
+    color: #573544;
+    transition: all .40s ease;
+}
 .orange:hover{
-	background: transparent;
-	border: 2px solid #ca7c62;
-	color: #3e1908;
+    background: transparent;
+    border: 2px solid #ca7c62;
+    color: #3e1908;
 }
 .eggplant:hover{
-	background: #573544;
-	color: #fff;
+    background: #573544;
+    color: #fff;
 }
-
 .heading-headertext,.header-para {
     color:#212427;
 }
-
 .yoga-girl-img {
-    width: 100%
+    width: 100%;
 }
-
 .yoga-section {
     margin:20px;
-    margin-top:50px;
+    margin-top:20px;
     padding-top:150px;
     gap:40px;
-
 }
 .yoga-section-para{
     font-family: var(--second-font);
     line-height: 30px;
     margin-top:10px;
-    
-    
 }
-
 .yoga-section-heading{
     font-size: 2em;
 }
-
 .yoga-section-text {
     display:flex;
     flex-direction: column;
-    width: 100%;
-    justify-content: center;
     margin-top: 30px;
-   
 }
-
 .heading-headertext {
     font-family: var(--main-font);
     letter-spacing: 2px;
     line-height: 1.1;
     margin: 15px;
     text-transform: uppercase;
-    
 }
-
 .header-para{
     font-family: var(--second-font);
     line-height: 30px;
     margin: 15px;
 }
-
-
-
-
 .yoga-video {
     width: 100%;
 }
-
-
 .yoga-events {
-    background:#FFFAF4;
+    /* background:#FFFAF4;
     display:flex;
-    flex-direction: column;
-    align-items: center;
-  
-
+flex-wrap: wrap; */
 }
-
 .event-container {
     padding:30px;
     width: 400px;
     background:#FFFFFF;
     border-radius:3px;
-    margin:20px 0px;
+    margin:20px auto;
     
 }
 
 .event-button {
     padding: 10px 30px;
-	color: #fff;
-	background: #FD8459;
-	font-size: 15px;
-	font-weight: 500;
-	border-radius: 15px;
-	border: 2px solid transparent;
-	transition: all .40s ease;
+    color: #fff;
+    background: #FD8459;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    transition: all .40s ease;
     margin-top:20px;
-    
 }
 .event-button:hover {
     background: transparent;
-	border: 2px solid  #FD8459;
-	color: #573544;
-	transition: all .40s ease;
-
+    border: 2px solid #FD8459;
+    color: #573544;
+    transition: all .40s ease;
 }
-
 .event-date-text,.event-date {
     font-family: var(--second-font);
     margin:3px 0px;
 }
-
 .event-date-text {
     font-weight: 300;
     line-height: 1.5;
     color:#212427;
 }
-
 .event-date {
     font-weight: 200;
     color: #573544;
     letter-spacing: 0.1em;
 }
-
 .event-heading {
     font-size: 1.9rem;
     letter-spacing: 0.1em;
     color:#212427;
 }
-
 .join-us-text {
     font-size: 3em;
     padding:30px;
 }
-
-
-
-
-
-
-
-
-   
+@media (min-width: 768px) {
+    .header-img {
+        width: 500px;
+        margin: 0 auto;
+   }
+    .yoga-section {
+        display:flex;
+        flex-direction: row;
+   }
+    .yoga-girl-img {
+        width: 500px;
+   }
+    .event-containars {
+        display:flex;
+        flex-wrap: wrap;
+        gap:10px;
+        margin: 0 auto;
+        
+   }
+    .yoga-events {
+        margin:20px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+   }
+}
+@media (min-width: 992px) {
+    .header-section {
+        display:flex;
+        flex-direction: row;
+   }
+    .header-img {
+        width: 500px;
+   }
+}
+@media (min-width: 1200px) {
+}
