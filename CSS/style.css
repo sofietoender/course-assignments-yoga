@@ -172,6 +172,31 @@ h1,h2 {
     padding-bottom: 40px;
     color:#F7AB88;
 }
+
+.section-blog {
+    background:#fee4d3;
+    margin:20px;
+    margin-top:0px;
+    padding-top:80px;
+    padding-bottom: 80px;
+
+}
+
+.blog-heading {
+    font-family: var(--main-font);
+    font-size: 3em;
+    padding-left:2rem;
+    letter-spacing: 0.4;
+
+}
+
+.yoga-event-info {
+    font-size: 0.5em;
+    font-weight: 100;
+    color:#F7AB88;
+    font-size: 1.3em;
+    margin-bottom:15px;
+}
 @media (min-width: 768px) {
     .header-img {
         width: 500px;
