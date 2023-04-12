@@ -13,12 +13,13 @@ async function getPosts() {
     const postsContainer = document.getElementById('posts-container');
 
     posts.forEach(post => {
-      const postDiv = document.createElement('div');
-      const author = getAuthorName(post.id);
-      postDiv.innerHTML = `<h2>${post.title.rendered}</h2><p>By ${author} on ${new Date(post.date).toLocaleDateString()}</p>${post.content.rendered}`;
-      postsContainer.appendChild(postDiv);
-    });
-  }
+        const postDiv = document.createElement('div');
+        const author = getAuthorName(post.id);
+        const postLink = `blog-details.html?id=${post.id}`;
+        postDiv.innerHTML = `<a href="${postLink}"><h2>${post.title.rendered}</h2></a><p>By ${author} on ${new Date(post.date).toLocaleDateString()}</p><p>${post.excerpt.rendered}</p>`;
+        postsContainer.appendChild(postDiv);
+      });
+    }
 
   function getAuthorName(postId) {
     switch (postId) {
