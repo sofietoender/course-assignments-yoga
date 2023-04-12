@@ -1,6 +1,6 @@
 async function getPosts() {
     try {
-      const response = await fetch('http://course-assignment-wordpress.local/wp-json/wp/v2/posts/');
+      const response = await fetch('https://ca-cms-sofie.flywheelsites.com/wp-json/wp/v2/posts/');
       const posts = await response.json();
       return posts;
     } catch (error) {
