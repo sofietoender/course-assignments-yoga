@@ -16,8 +16,9 @@ async function getPosts() {
         const postDiv = document.createElement('div');
         const author = getAuthorName(post.id);
         const postLink = `blog-details.html?id=${post.id}`;
-        postDiv.innerHTML = `<a href="${postLink}"><h2>${post.title.rendered}</h2></a><p>By ${author} on ${new Date(post.date).toLocaleDateString()}</p><p>${post.excerpt.rendered}</p>`;
+        postDiv.innerHTML += `<a href="${postLink}"><div class="blog-post-card"><p>By ${author} on ${new Date(post.date).toLocaleDateString()}</p><h2>${post.title.rendered}</h2><p>${post.excerpt.rendered}</p><div class="button-div"><button class="header-btn eggplant">Read more</button></div></div></a>`;
         postsContainer.appendChild(postDiv);
+        
       });
     }
 

@@ -1,13 +1,54 @@
-#posts-container {
-padding:100px;
+a {
+    text-decoration: none;
+
+}
+a:visited {
+    text-decoration: none;
+}
+
+.posts-container {
+padding:20px;
 display:flex;
-justify-content: center;
 flex-direction: column;
+
+}
+
+.blog-post-card {
+    background:#fee4d3;
+    margin:30px;
+   padding: 30px;
+    border-radius:3px;
+    max-width: 800px;;
 }
 
 
 h1 {
     padding-top: 100px;
+    padding-bottom: 30px;
+    color:black;
 }
 
+h2 {
+    padding-bottom:20px;
+    color:black;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+
+p {
+    color:black;
+}
+
+
+.button-div {
+    display:flex;
+    justify-content: end;
+    text-decoration: none;
+}
+
+.blog-card-button {
+    background:none;
+    border:none;
+    margin-top:20px;
+}
 

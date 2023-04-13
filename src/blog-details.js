@@ -23,7 +23,7 @@ function showBlogDetails(blogDetails) {
   const content = blogDetails.content.rendered;
 
   detailsHeader.innerHTML = `<h1>${title}</h1>`;
-  detailsContent.innerHTML = content;
+  detailsContent.innerHTML = `<div>${content}<div>`;
 }
 
 fetchBlogDetails();
