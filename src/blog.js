@@ -1,3 +1,4 @@
+
 async function getPosts() {
     try {
       const response = await fetch('https://ca-cms-sofie.flywheelsites.com/wp-json/wp/v2/posts/');
@@ -36,3 +37,6 @@ async function getPosts() {
   }
 
   displayPosts();
+
+ 
+

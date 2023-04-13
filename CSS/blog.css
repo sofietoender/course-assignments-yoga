@@ -10,22 +10,36 @@ a:visited {
 padding:20px;
 display:flex;
 flex-direction: column;
+justify-content: center;
+gap:30px;
 
 }
 
 .blog-post-card {
     background:#fee4d3;
-    margin:30px;
-   padding: 30px;
+   padding: 50px;
     border-radius:3px;
-    max-width: 800px;;
+    max-width: 800px;
+   
+    
+}
+
+a {
+    display:flex;
+    justify-content: center;
 }
 
 
 h1 {
     padding-top: 100px;
     padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right:30px;
     color:black;
+   font-family: var(--main-font);
+   letter-spacing: 2px;
+   text-align: center;
+   font-size: 3em;
 }
 
 h2 {
@@ -33,6 +47,7 @@ h2 {
     color:black;
     letter-spacing: 2px;
     font-size: 1.5rem;
+    margin-top:10px;
 }
 
 p {
@@ -51,4 +66,7 @@ p {
     border:none;
     margin-top:20px;
 }
+
+
+
 
