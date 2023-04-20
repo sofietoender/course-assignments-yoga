@@ -1,11 +1,26 @@
 ## Course Assignment - WordPress as Headless CMS
 
-In this course assignment we were tasked to use wordPress as a headless CMS. We could choose between blog post or products items. For this assignment i choosed blog post.
+---
 
-I have used javascript to fetch the data and displayed the posts on my site.
+For this project, I used WordPress as a Headless CMS to manage blog posts on a website deployed on Netlify. My goal was to create a list of blog posts, using WordPress only for its backend functionalities, and fetch the blog post data from the WordPress REST API using JavaScript.
 
 ## Links
 
-## Netlify: https://funny-swan-8c1539.netlify.app
+---
 
-## GitHub: https://github.com/sofietoender/course-assignments-yoga.git
+Deployed website:
+
+- Netlify: https://funny-swan-8c1539.netlify.app
+
+## Technology used
+
+---
+
+- WordPress
+- WordPress REST API
+- LocalWP
+- Flywheel
+- Netlify
+- JavaScript
+- HTML
+- CSS
